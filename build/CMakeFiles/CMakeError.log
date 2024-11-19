@@ -1,0 +1,275 @@
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/local/bin/arm-none-eabi-gcc 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+/usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/bin/ld: /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-exit.o): in function `exit':
+exit.c:(.text.exit+0x2c): undefined reference to `_exit'
+collect2: error: ld returned 1 exit status
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/arm-none-eabi-g++ 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+/usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/bin/ld: /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-exit.o): in function `exit':
+exit.c:(.text.exit+0x2c): undefined reference to `_exit'
+collect2: error: ld returned 1 exit status
+
+
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: /Users/frostie/projects/termplayer/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/opt/homebrew/bin/ninja cmTC_b4855 && [1/2] Building C object CMakeFiles/cmTC_b4855.dir/CMakeCCompilerABI.c.o
+FAILED: CMakeFiles/cmTC_b4855.dir/CMakeCCompilerABI.c.o 
+/usr/local/bin/arm-none-eabi-gcc   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk   -v -Wl,-v -o CMakeFiles/cmTC_b4855.dir/CMakeCCompilerABI.c.o -c /opt/local/share/cmake-3.24/Modules/CMakeCCompilerABI.c
+arm-none-eabi-gcc: error: arm64: No such file or directory
+Using built-in specs.
+COLLECT_GCC=/usr/local/bin/arm-none-eabi-gcc
+arm-none-eabi-gcc: error: unrecognized command line option '-arch'; did you mean '-march='?
+Target: arm-none-eabi
+Configured with: /tmp/jenkins-GCC-9-pipeline-100_20191030_1572397548/src/gcc/configure --target=arm-none-eabi --prefix=/tmp/jenkins-GCC-9-pipeline-100_20191030_1572397548/install-native --libexecdir=/tmp/jenkins-GCC-9-pipeline-100_20191030_1572397548/install-native/lib --infodir=/tmp/jenkins-GCC-9-pipeline-100_20191030_1572397548/install-native/share/doc/gcc-arm-none-eabi/info --mandir=/tmp/jenkins-GCC-9-pipeline-100_20191030_1572397548/install-native/share/doc/gcc-arm-none-eabi/man --htmldir=/tmp/jenkins-GCC-9-pipeline-100_20191030_1572397548/install-native/share/doc/gcc-arm-none-eabi/html --pdfdir=/tmp/jenkins-GCC-9-pipeline-100_20191030_1572397548/install-native/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-plugins --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-newlib --with-headers=yes --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/tmp/jenkins-GCC-9-pipeline-100_20191030_1572397548/install-native/arm-none-eabi --build=x86_64-apple-darwin10 --host=x86_64-apple-darwin10 --with-gmp=/tmp/jenkins-GCC-9-pipeline-100_20191030_1572397548/build-native/host-libs/usr --with-mpfr=/tmp/jenkins-GCC-9-pipeline-100_20191030_1572397548/build-native/host-libs/usr --with-mpc=/tmp/jenkins-GCC-9-pipeline-100_20191030_1572397548/build-native/host-libs/usr --with-isl=/tmp/jenkins-GCC-9-pipeline-100_20191030_1572397548/build-native/host-libs/usr --with-libelf=/tmp/jenkins-GCC-9-pipeline-100_20191030_1572397548/build-native/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-lstdc++ -lm' --with-pkgversion='GNU Tools for Arm Embedded Processors 9-2019-q4-major' --with-multilib-list=rmprofile
+Thread model: single
+gcc version 9.2.1 20191025 (release) [ARM/arm-9-branch revision 277599] (GNU Tools for Arm Embedded Processors 9-2019-q4-major) 
+ninja: build stopped: subcommand failed.
+
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /Users/frostie/projects/termplayer/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/opt/homebrew/bin/ninja cmTC_a19e4 && [1/2] Building C object CMakeFiles/cmTC_a19e4.dir/testCCompiler.c.o
+FAILED: CMakeFiles/cmTC_a19e4.dir/testCCompiler.c.o 
+/usr/local/bin/arm-none-eabi-gcc   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -o CMakeFiles/cmTC_a19e4.dir/testCCompiler.c.o -c /Users/frostie/projects/termplayer/build/CMakeFiles/CMakeTmp/testCCompiler.c
+arm-none-eabi-gcc: error: arm64: No such file or directory
+arm-none-eabi-gcc: error: unrecognized command line option '-arch'; did you mean '-march='?
+ninja: build stopped: subcommand failed.
+
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/local/bin/arm-none-eabi-gcc 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+/usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/bin/ld: /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-exit.o): in function `exit':
+exit.c:(.text.exit+0x2c): undefined reference to `_exit'
+collect2: error: ld returned 1 exit status
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/arm-none-eabi-g++ 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+/usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/bin/ld: /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-exit.o): in function `exit':
+exit.c:(.text.exit+0x2c): undefined reference to `_exit'
+collect2: error: ld returned 1 exit status
+
+
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: /Users/frostie/projects/termplayer/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/opt/homebrew/bin/ninja cmTC_ef505 && [1/2] Building C object CMakeFiles/cmTC_ef505.dir/CMakeCCompilerABI.c.o
+FAILED: CMakeFiles/cmTC_ef505.dir/CMakeCCompilerABI.c.o 
+/usr/local/bin/arm-none-eabi-gcc   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk   -v -Wl,-v -o CMakeFiles/cmTC_ef505.dir/CMakeCCompilerABI.c.o -c /opt/local/share/cmake-3.24/Modules/CMakeCCompilerABI.c
+arm-none-eabi-gcc: error: arm64: No such file or directory
+Using built-in specs.
+COLLECT_GCC=/usr/local/bin/arm-none-eabi-gcc
+arm-none-eabi-gcc: error: unrecognized command line option '-arch'; did you mean '-march='?
+Target: arm-none-eabi
+Configured with: /tmp/jenkins-GCC-9-pipeline-100_20191030_1572397548/src/gcc/configure --target=arm-none-eabi --prefix=/tmp/jenkins-GCC-9-pipeline-100_20191030_1572397548/install-native --libexecdir=/tmp/jenkins-GCC-9-pipeline-100_20191030_1572397548/install-native/lib --infodir=/tmp/jenkins-GCC-9-pipeline-100_20191030_1572397548/install-native/share/doc/gcc-arm-none-eabi/info --mandir=/tmp/jenkins-GCC-9-pipeline-100_20191030_1572397548/install-native/share/doc/gcc-arm-none-eabi/man --htmldir=/tmp/jenkins-GCC-9-pipeline-100_20191030_1572397548/install-native/share/doc/gcc-arm-none-eabi/html --pdfdir=/tmp/jenkins-GCC-9-pipeline-100_20191030_1572397548/install-native/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-plugins --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-newlib --with-headers=yes --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/tmp/jenkins-GCC-9-pipeline-100_20191030_1572397548/install-native/arm-none-eabi --build=x86_64-apple-darwin10 --host=x86_64-apple-darwin10 --with-gmp=/tmp/jenkins-GCC-9-pipeline-100_20191030_1572397548/build-native/host-libs/usr --with-mpfr=/tmp/jenkins-GCC-9-pipeline-100_20191030_1572397548/build-native/host-libs/usr --with-mpc=/tmp/jenkins-GCC-9-pipeline-100_20191030_1572397548/build-native/host-libs/usr --with-isl=/tmp/jenkins-GCC-9-pipeline-100_20191030_1572397548/build-native/host-libs/usr --with-libelf=/tmp/jenkins-GCC-9-pipeline-100_20191030_1572397548/build-native/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-lstdc++ -lm' --with-pkgversion='GNU Tools for Arm Embedded Processors 9-2019-q4-major' --with-multilib-list=rmprofile
+Thread model: single
+gcc version 9.2.1 20191025 (release) [ARM/arm-9-branch revision 277599] (GNU Tools for Arm Embedded Processors 9-2019-q4-major) 
+ninja: build stopped: subcommand failed.
+
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /Users/frostie/projects/termplayer/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/opt/homebrew/bin/ninja cmTC_5d8ee && [1/2] Building C object CMakeFiles/cmTC_5d8ee.dir/testCCompiler.c.o
+FAILED: CMakeFiles/cmTC_5d8ee.dir/testCCompiler.c.o 
+/usr/local/bin/arm-none-eabi-gcc   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -o CMakeFiles/cmTC_5d8ee.dir/testCCompiler.c.o -c /Users/frostie/projects/termplayer/build/CMakeFiles/CMakeTmp/testCCompiler.c
+arm-none-eabi-gcc: error: arm64: No such file or directory
+arm-none-eabi-gcc: error: unrecognized command line option '-arch'; did you mean '-march='?
+ninja: build stopped: subcommand failed.
+
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/local/bin/arm-none-eabi-gcc 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+/usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/bin/ld: /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-exit.o): in function `exit':
+exit.c:(.text.exit+0x2c): undefined reference to `_exit'
+collect2: error: ld returned 1 exit status
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/arm-none-eabi-g++ 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+/usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/bin/ld: /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-exit.o): in function `exit':
+exit.c:(.text.exit+0x2c): undefined reference to `_exit'
+collect2: error: ld returned 1 exit status
+
+
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: /Users/frostie/projects/termplayer/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/opt/homebrew/bin/ninja cmTC_44847 && [1/2] Building C object CMakeFiles/cmTC_44847.dir/CMakeCCompilerABI.c.o
+FAILED: CMakeFiles/cmTC_44847.dir/CMakeCCompilerABI.c.o 
+/usr/local/bin/arm-none-eabi-gcc   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk   -v -Wl,-v -o CMakeFiles/cmTC_44847.dir/CMakeCCompilerABI.c.o -c /opt/local/share/cmake-3.24/Modules/CMakeCCompilerABI.c
+arm-none-eabi-gcc: error: arm64: No such file or directory
+Using built-in specs.
+COLLECT_GCC=/usr/local/bin/arm-none-eabi-gcc
+arm-none-eabi-gcc: error: unrecognized command line option '-arch'; did you mean '-march='?
+Target: arm-none-eabi
+Configured with: /tmp/jenkins-GCC-9-pipeline-100_20191030_1572397548/src/gcc/configure --target=arm-none-eabi --prefix=/tmp/jenkins-GCC-9-pipeline-100_20191030_1572397548/install-native --libexecdir=/tmp/jenkins-GCC-9-pipeline-100_20191030_1572397548/install-native/lib --infodir=/tmp/jenkins-GCC-9-pipeline-100_20191030_1572397548/install-native/share/doc/gcc-arm-none-eabi/info --mandir=/tmp/jenkins-GCC-9-pipeline-100_20191030_1572397548/install-native/share/doc/gcc-arm-none-eabi/man --htmldir=/tmp/jenkins-GCC-9-pipeline-100_20191030_1572397548/install-native/share/doc/gcc-arm-none-eabi/html --pdfdir=/tmp/jenkins-GCC-9-pipeline-100_20191030_1572397548/install-native/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-plugins --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-newlib --with-headers=yes --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/tmp/jenkins-GCC-9-pipeline-100_20191030_1572397548/install-native/arm-none-eabi --build=x86_64-apple-darwin10 --host=x86_64-apple-darwin10 --with-gmp=/tmp/jenkins-GCC-9-pipeline-100_20191030_1572397548/build-native/host-libs/usr --with-mpfr=/tmp/jenkins-GCC-9-pipeline-100_20191030_1572397548/build-native/host-libs/usr --with-mpc=/tmp/jenkins-GCC-9-pipeline-100_20191030_1572397548/build-native/host-libs/usr --with-isl=/tmp/jenkins-GCC-9-pipeline-100_20191030_1572397548/build-native/host-libs/usr --with-libelf=/tmp/jenkins-GCC-9-pipeline-100_20191030_1572397548/build-native/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-lstdc++ -lm' --with-pkgversion='GNU Tools for Arm Embedded Processors 9-2019-q4-major' --with-multilib-list=rmprofile
+Thread model: single
+gcc version 9.2.1 20191025 (release) [ARM/arm-9-branch revision 277599] (GNU Tools for Arm Embedded Processors 9-2019-q4-major) 
+ninja: build stopped: subcommand failed.
+
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /Users/frostie/projects/termplayer/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/opt/homebrew/bin/ninja cmTC_cd1fe && [1/2] Building C object CMakeFiles/cmTC_cd1fe.dir/testCCompiler.c.o
+FAILED: CMakeFiles/cmTC_cd1fe.dir/testCCompiler.c.o 
+/usr/local/bin/arm-none-eabi-gcc   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -o CMakeFiles/cmTC_cd1fe.dir/testCCompiler.c.o -c /Users/frostie/projects/termplayer/build/CMakeFiles/CMakeTmp/testCCompiler.c
+arm-none-eabi-gcc: error: arm64: No such file or directory
+arm-none-eabi-gcc: error: unrecognized command line option '-arch'; did you mean '-march='?
+ninja: build stopped: subcommand failed.
+
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/local/bin/arm-none-eabi-gcc 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+/usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/bin/ld: /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-exit.o): in function `exit':
+exit.c:(.text.exit+0x2c): undefined reference to `_exit'
+collect2: error: ld returned 1 exit status
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/arm-none-eabi-g++ 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+/usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/bin/ld: /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-exit.o): in function `exit':
+exit.c:(.text.exit+0x2c): undefined reference to `_exit'
+collect2: error: ld returned 1 exit status
+
+
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: /Users/frostie/projects/termplayer/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/opt/homebrew/bin/ninja cmTC_96900 && [1/2] Building C object CMakeFiles/cmTC_96900.dir/CMakeCCompilerABI.c.o
+FAILED: CMakeFiles/cmTC_96900.dir/CMakeCCompilerABI.c.o 
+/usr/local/bin/arm-none-eabi-gcc   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk   -v -Wl,-v -o CMakeFiles/cmTC_96900.dir/CMakeCCompilerABI.c.o -c /opt/local/share/cmake-3.24/Modules/CMakeCCompilerABI.c
+arm-none-eabi-gcc: error: arm64: No such file or directory
+Using built-in specs.
+COLLECT_GCC=/usr/local/bin/arm-none-eabi-gcc
+arm-none-eabi-gcc: error: unrecognized command line option '-arch'; did you mean '-march='?
+Target: arm-none-eabi
+Configured with: /tmp/jenkins-GCC-9-pipeline-100_20191030_1572397548/src/gcc/configure --target=arm-none-eabi --prefix=/tmp/jenkins-GCC-9-pipeline-100_20191030_1572397548/install-native --libexecdir=/tmp/jenkins-GCC-9-pipeline-100_20191030_1572397548/install-native/lib --infodir=/tmp/jenkins-GCC-9-pipeline-100_20191030_1572397548/install-native/share/doc/gcc-arm-none-eabi/info --mandir=/tmp/jenkins-GCC-9-pipeline-100_20191030_1572397548/install-native/share/doc/gcc-arm-none-eabi/man --htmldir=/tmp/jenkins-GCC-9-pipeline-100_20191030_1572397548/install-native/share/doc/gcc-arm-none-eabi/html --pdfdir=/tmp/jenkins-GCC-9-pipeline-100_20191030_1572397548/install-native/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-plugins --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-newlib --with-headers=yes --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/tmp/jenkins-GCC-9-pipeline-100_20191030_1572397548/install-native/arm-none-eabi --build=x86_64-apple-darwin10 --host=x86_64-apple-darwin10 --with-gmp=/tmp/jenkins-GCC-9-pipeline-100_20191030_1572397548/build-native/host-libs/usr --with-mpfr=/tmp/jenkins-GCC-9-pipeline-100_20191030_1572397548/build-native/host-libs/usr --with-mpc=/tmp/jenkins-GCC-9-pipeline-100_20191030_1572397548/build-native/host-libs/usr --with-isl=/tmp/jenkins-GCC-9-pipeline-100_20191030_1572397548/build-native/host-libs/usr --with-libelf=/tmp/jenkins-GCC-9-pipeline-100_20191030_1572397548/build-native/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-lstdc++ -lm' --with-pkgversion='GNU Tools for Arm Embedded Processors 9-2019-q4-major' --with-multilib-list=rmprofile
+Thread model: single
+gcc version 9.2.1 20191025 (release) [ARM/arm-9-branch revision 277599] (GNU Tools for Arm Embedded Processors 9-2019-q4-major) 
+ninja: build stopped: subcommand failed.
+
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /Users/frostie/projects/termplayer/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/opt/homebrew/bin/ninja cmTC_7b38b && [1/2] Building C object CMakeFiles/cmTC_7b38b.dir/testCCompiler.c.o
+FAILED: CMakeFiles/cmTC_7b38b.dir/testCCompiler.c.o 
+/usr/local/bin/arm-none-eabi-gcc   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -o CMakeFiles/cmTC_7b38b.dir/testCCompiler.c.o -c /Users/frostie/projects/termplayer/build/CMakeFiles/CMakeTmp/testCCompiler.c
+arm-none-eabi-gcc: error: arm64: No such file or directory
+arm-none-eabi-gcc: error: unrecognized command line option '-arch'; did you mean '-march='?
+ninja: build stopped: subcommand failed.
+
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/local/bin/arm-none-eabi-gcc 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+/usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/bin/ld: /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-exit.o): in function `exit':
+exit.c:(.text.exit+0x2c): undefined reference to `_exit'
+collect2: error: ld returned 1 exit status
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/arm-none-eabi-g++ 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+/usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/bin/ld: /usr/local/playdate/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-exit.o): in function `exit':
+exit.c:(.text.exit+0x2c): undefined reference to `_exit'
+collect2: error: ld returned 1 exit status
+
+
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: /Users/frostie/projects/termplayer/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/opt/homebrew/bin/ninja cmTC_26900 && [1/2] Building C object CMakeFiles/cmTC_26900.dir/CMakeCCompilerABI.c.o
+FAILED: CMakeFiles/cmTC_26900.dir/CMakeCCompilerABI.c.o 
+/usr/local/bin/arm-none-eabi-gcc   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk   -v -Wl,-v -o CMakeFiles/cmTC_26900.dir/CMakeCCompilerABI.c.o -c /opt/local/share/cmake-3.24/Modules/CMakeCCompilerABI.c
+arm-none-eabi-gcc: error: arm64: No such file or directory
+Using built-in specs.
+COLLECT_GCC=/usr/local/bin/arm-none-eabi-gcc
+arm-none-eabi-gcc: error: unrecognized command line option '-arch'; did you mean '-march='?
+Target: arm-none-eabi
+Configured with: /tmp/jenkins-GCC-9-pipeline-100_20191030_1572397548/src/gcc/configure --target=arm-none-eabi --prefix=/tmp/jenkins-GCC-9-pipeline-100_20191030_1572397548/install-native --libexecdir=/tmp/jenkins-GCC-9-pipeline-100_20191030_1572397548/install-native/lib --infodir=/tmp/jenkins-GCC-9-pipeline-100_20191030_1572397548/install-native/share/doc/gcc-arm-none-eabi/info --mandir=/tmp/jenkins-GCC-9-pipeline-100_20191030_1572397548/install-native/share/doc/gcc-arm-none-eabi/man --htmldir=/tmp/jenkins-GCC-9-pipeline-100_20191030_1572397548/install-native/share/doc/gcc-arm-none-eabi/html --pdfdir=/tmp/jenkins-GCC-9-pipeline-100_20191030_1572397548/install-native/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-plugins --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-newlib --with-headers=yes --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/tmp/jenkins-GCC-9-pipeline-100_20191030_1572397548/install-native/arm-none-eabi --build=x86_64-apple-darwin10 --host=x86_64-apple-darwin10 --with-gmp=/tmp/jenkins-GCC-9-pipeline-100_20191030_1572397548/build-native/host-libs/usr --with-mpfr=/tmp/jenkins-GCC-9-pipeline-100_20191030_1572397548/build-native/host-libs/usr --with-mpc=/tmp/jenkins-GCC-9-pipeline-100_20191030_1572397548/build-native/host-libs/usr --with-isl=/tmp/jenkins-GCC-9-pipeline-100_20191030_1572397548/build-native/host-libs/usr --with-libelf=/tmp/jenkins-GCC-9-pipeline-100_20191030_1572397548/build-native/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-lstdc++ -lm' --with-pkgversion='GNU Tools for Arm Embedded Processors 9-2019-q4-major' --with-multilib-list=rmprofile
+Thread model: single
+gcc version 9.2.1 20191025 (release) [ARM/arm-9-branch revision 277599] (GNU Tools for Arm Embedded Processors 9-2019-q4-major) 
+ninja: build stopped: subcommand failed.
+
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /Users/frostie/projects/termplayer/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/opt/homebrew/bin/ninja cmTC_8b604 && [1/2] Building C object CMakeFiles/cmTC_8b604.dir/testCCompiler.c.o
+FAILED: CMakeFiles/cmTC_8b604.dir/testCCompiler.c.o 
+/usr/local/bin/arm-none-eabi-gcc   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -o CMakeFiles/cmTC_8b604.dir/testCCompiler.c.o -c /Users/frostie/projects/termplayer/build/CMakeFiles/CMakeTmp/testCCompiler.c
+arm-none-eabi-gcc: error: arm64: No such file or directory
+arm-none-eabi-gcc: error: unrecognized command line option '-arch'; did you mean '-march='?
+ninja: build stopped: subcommand failed.
+
+
+
