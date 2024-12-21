@@ -4,7 +4,7 @@ Sync / Media manager for the PlaystationPortable
 
 |PSP Folder|Description|
 |-|-|
-|ISO | PSP Iso|
-|MUSIC |Music|
-|PICTURE | Pictures|
-|PSP/GAME/ | **PSX EBOOTS**|
+|`/ISO/` | **PSP** Iso|
+|`/MUSIC/` |Music|
+|`/PICTURE/` | Pictures|
+|`/PSP/GAME/`| **PSX** EBOOTS|
