@@ -1,9 +1,14 @@
 #include "mainwindow.h"
-#include "ui/ui_mainwindow.h"
-#include <QDir>
-#include <QFile>
-#include <QSqlQuery>
-#include <QSqlError>
-#include <QSqlTableModel>
-#include <iostream>
-QString MainWindow::psp
+#include "ui_mainwindow.h"
+
+mainWindow::mainWindow(QWidget *parent)
+    : QMainWindow(parent)
+    , ui(new Ui::mainWindow)
+{
+    ui->setupUi(this);
+}
+
+mainWindow::~mainWindow()
+{
+    delete ui;
+}

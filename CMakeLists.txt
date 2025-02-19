@@ -33,14 +33,11 @@ include_directories(${CMAKE_SOURCE_DIR}/include)
 
 # Add source files
 set(SOURCES
-        main.cpp
-        mainwindow.cpp
-        mainwindow.cpp mainwindow.h)
+        main.cpp )
 
 # Add header files
 set(HEADERS
-        mainwindow.h
-        mainwindow.cpp mainwindow.h)
+        )
 
 # Add UI files
 set(UI_FILES
@@ -51,7 +48,9 @@ set(UI_FILES
 add_executable(${PROJECT_NAME}
         ${SOURCES}
         ${HEADERS}
-        ${UI_FILES}
+        mainwindow.h mainwindow.cpp mainwindow.ui
+        mainwindow.h mainwindow.cpp mainwindow.ui
+        #${UI_FILES}
         )
 
 # Link Qt libraries dynamically based on Qt version
@@ -61,7 +60,7 @@ target_link_libraries(${PROJECT_NAME} ${QT_LIBRARIES})
 target_include_directories(${PROJECT_NAME} PRIVATE include)
 
 # Copy SQL files after build
-add_custom_command(TARGET ${PROJECT_NAME} POST_BUILD
-        COMMAND ${CMAKE_COMMAND} -E copy_directory
-        ${CMAKE_SOURCE_DIR}/sql $<TARGET_FILE_DIR:${PROJECT_NAME}>/sql
-        )
+#add_custom_command(TARGET ${PROJECT_NAME} POST_BUILD
+#        COMMAND ${CMAKE_COMMAND} -E copy_directory
+#        ${CMAKE_SOURCE_DIR}/sql $<TARGET_FILE_DIR:${PROJECT_NAME}>/sql
+#        )
